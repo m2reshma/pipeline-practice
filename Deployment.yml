@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: web
-          image: reshma8466004811/pipeline-demo2:latest   # 🟢 Replace with your actual image name
+          image: reshma8466004811/pipeline-demo2:v1.latest   # 🟢 Replace with your actual image name
           ports:
             - containerPort: 8080
