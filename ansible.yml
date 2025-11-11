@@ -1,0 +1,9 @@
+---
+- hosts: node
+  become: true
+  tasks:
+    - name: Create new deployment
+      command: kubectl apply -f /home/reshma/Deployment.yml
+    - name: Create new service
+      command: kubectl apply -f /home/reshma/Service.yml
+
