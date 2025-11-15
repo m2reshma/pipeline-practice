@@ -3,7 +3,7 @@
   become: true
   tasks:
     - name: Create new deployment
-      command: kubectl apply -f /home/reshma8466004811/Deployment.yml --kubeconfig /home/reshma8466004811/.kube/config --validate=false
+      command: kubectl apply -f /home/ubuntu/Deployment.yml --kubeconfig /home/ubuntu/.kube/config --validate=false
     - name: Create new service
-      command: kubectl apply -f /home/reshma8466004811/Service.yml --kubeconfig /home/reshma8466004811/.kube/config --validate=false
+      command: kubectl apply -f /home/ubuntu/Service.yml --kubeconfig /home/ubuntu/.kube/config --validate=false
 
